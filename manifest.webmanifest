@@ -1,0 +1,11 @@
+{
+  "name": "محمل الفيديو — محمد رأفت",
+  "short_name": "محمل الفيديو",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090510",
+  "theme_color": "#10051f",
+  "description": "أداة لتحميل المحتوى المسموح به، تحتاج إلى خادم Python وFFmpeg."
+}

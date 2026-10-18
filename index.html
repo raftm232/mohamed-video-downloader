@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#10051f">
+<meta name="description" content="تحميل الفيديو + صوت">
+<link rel="manifest" href="/manifest.webmanifest">
+<title>محمد رأفت ✈️</title>
+<style>
+:root{color-scheme:dark;--bg:#090510;--panel:rgba(22,10,39,.82);--line:rgba(190,130,255,.22);--purple:#a855f7;--pink:#ec4899;--lav:#d8b4fe;--text:#faf5ff;--muted:#b8a6ca;--good:#86efac}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;overflow-x:hidden;background:radial-gradient(ellipse at 50% -10%,#4c1d7180,transparent 44%),radial-gradient(circle at 5% 55%,#701a7530,transparent 30%),var(--bg);color:var(--text);font-family:system-ui,Tahoma,Arial,sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(#c084fc10 1px,transparent 1px),linear-gradient(90deg,#c084fc10 1px,transparent 1px);background-size:38px 38px;mask-image:linear-gradient(to bottom,#000,transparent 85%)}
+.aurora{position:fixed;width:300px;height:300px;border-radius:50%;filter:blur(95px);opacity:.22;pointer-events:none;animation:float 12s ease-in-out infinite alternate;background:#a855f7;top:15%;right:-170px}.aurora.two{background:#ec4899;top:60%;left:-180px;animation-delay:-5s}
+main{position:relative;width:min(760px,100%);margin:auto;padding:32px 18px 24px}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px;color:var(--muted);font-size:12px;letter-spacing:1.5px}
+.pill{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:#1a0b2a88;color:var(--text);text-decoration:none;cursor:pointer;transition:all .2s}
+.pill:hover{border-color:#d8b4fe;box-shadow:0 0 22px #a855f755;transform:translateY(-1px)}
+.dot{width:7px;height:7px;border-radius:50%;background:#86efac;box-shadow:0 0 12px #86efac;animation:pulse 1.8s infinite}
+.hero{text-align:center;margin-bottom:30px;animation:rise .8s ease both}
+.emblem{position:relative;display:grid;place-items:center;width:90px;height:90px;margin:0 auto 22px;border:1px solid #d8b4fe66;border-radius:28px;background:linear-gradient(145deg,#a855f73d,#ec48991c);box-shadow:0 0 55px #a855f72c,inset 0 0 25px #d8b4fe12;transform:rotate(-5deg)}
+.emblem:before{content:"";position:absolute;inset:-7px;border:1px solid #c084fc33;border-radius:32px;animation:spin 18s linear infinite}
+.emblem svg{width:42px;height:42px;filter:drop-shadow(0 0 12px #c084fc);transform:rotate(5deg)}
+.eyebrow{color:#d8b4fe;font-size:11px;letter-spacing:4px;font-weight:800;margin-bottom:10px}
+h1{margin:0;font-size:clamp(30px,7vw,52px);line-height:1.15;font-weight:900;letter-spacing:-1.5px}
+h1 span{background:linear-gradient(90deg,#f5d0fe,#c084fc 45%,#f0abfc);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 36px #a855f72c}
+.subtitle{color:var(--muted);line-height:1.9;font-size:14px;max-width:470px;margin:13px auto 0}
+.panel{position:relative;overflow:hidden;padding:clamp(20px,5vw,34px);border:1px solid var(--line);border-radius:27px;background:linear-gradient(145deg,#1d0d2be8,#10091cef);box-shadow:0 25px 90px #0008,0 0 45px #a855f70b;backdrop-filter:blur(18px);animation:rise .9s .12s ease both}
+.panel:before{content:"";position:absolute;top:0;right:12%;left:12%;height:1px;background:linear-gradient(90deg,transparent,#d8b4fe,transparent);box-shadow:0 0 20px #c084fc;pointer-events:none}
+.panel-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:22px}
+.panel-head h2{font-size:16px;margin:0}
+.panel-head small{color:#c4b5fd;font-size:10px;letter-spacing:1px}
+.label{display:block;margin:18px 0 9px;font-size:13px;font-weight:750;color:#f3e8ff}
+.input-wrap{position:relative}
+input,select{width:100%;min-height:51px;padding:14px 15px;border:1px solid #6b438566;border-radius:14px;background:#0b0614;color:var(--text);font:inherit;outline:none;transition:border .2s,box-shadow .2s,transform .2s}
+input::placeholder{color:#806c95}
+input:focus,select:focus{border-color:#c084fc;box-shadow:0 0 0 3px #a855f71b,0 0 22px #a855f71c}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+.btn{position:relative;z-index:2;display:flex!important;visibility:visible!important;opacity:1!important;justify-content:center;align-items:center;gap:11px;width:100%;min-height:56px;margin-top:24px;border:1px solid #e9d5ff66;border-radius:15px;background:linear-gradient(100deg,#7e22ce,#a855f7 48%,#db2777);color:white;font:800 15px system-ui;cursor:pointer;box-shadow:0 8px 28px #a855f755;transition:transform .2s,box-shadow .2s;overflow:hidden;pointer-events:auto}
+.btn:before{content:"";position:absolute;top:-100%;left:-40%;width:30%;height:300%;transform:rotate(25deg);background:#ffffff26;transition:left .65s;pointer-events:none}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 36px #a855f777}.btn:hover:before{left:120%}.btn:active{transform:scale(.99)}.btn:disabled{opacity:.6!important;cursor:wait;transform:none}
+.btn span{position:relative;z-index:1}
+.status{display:flex;align-items:flex-start;gap:10px;margin-top:17px;padding:14px;border:1px solid #6b438544;border-radius:13px;background:#0a0612;color:#c4b5d3;font-size:12px;line-height:1.8;overflow-wrap:anywhere;white-space:pre-wrap}
+.status:before{content:"";flex:0 0 7px;width:7px;height:7px;margin-top:7px;border-radius:50%;background:#c084fc;box-shadow:0 0 10px #c084fc}
+.note{margin:18px 2px 0;color:#9c89ad;font-size:11px;line-height:1.9}
+.note strong{color:#d8b4fe}
+footer{text-align:center;color:#806d94;font-size:11px;padding:25px 0 8px}footer b{color:#d8b4fe}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes float{to{transform:translate(-40px,55px) scale(1.2)}}
+@keyframes pulse{50%{opacity:.45;box-shadow:0 0 3px #86efac}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:520px){main{padding:20px 13px}.topbar{margin-bottom:36px}.features{grid-template-columns:1fr 1fr 1fr}.feature{padding:12px 4px}.feature b{font-size:10px}.feature{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="aurora"></div><div class="aurora two"></div>
+<main>
+<div class="topbar">
+  <span>تواصل تيليجرام هناك 👈🏻</span>
+  <a class="pill" href="https://t.me/mm_ipp" target="_blank" rel="noopener noreferrer" aria-label="التواصل مع محمد رأفت على تلجرام"><i class="dot"></i> محمد رأفت ✈️</a>
+</div>
+<header class="hero">
+<div class="emblem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 16v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3"/></svg></div>
+<h1>تحميل <span>الفيديو</span></h1>
+</header>
+<section class="panel">
+<div class="panel-head"><h2>ابدأ التحميل</h2><small></small></div>
+<form id="form">
+<label class="label" for="url">رابط الفيديو</label>
+<div class="input-wrap"><input id="url" type="url" placeholder="حط الرابط هنا ☺️" required autocomplete="url"></div>
+<div class="grid">
+<div><label class="label" for="mode">صيغة التحميل </label><select id="mode"><option value="video">تحميل فيديو </option><option value="audio">تحميل صوت-MP3</option></select></div>
+<div><label class="label" for="quality">جودة الفيديو</label><select id="quality"><option value="best">أفضل جودة متاحة</option></select></div>
+</div>
+<button class="btn" id="submit" type="submit"><span>✦</span><span>فحص الرابط وبدء التحميل</span><span>↙</span></button>
+</form>
+<div class="status" id="status" role="status" aria-live="polite">جاهز. أدخل رابط.</div>
+</section>
+<footer>صُنع بعناية بواسطة <b>محمد رأفت</b></footer>
+</main>
+<script>
+const form=document.querySelector('#form'),statusBox=document.querySelector('#status'),submit=document.querySelector('#submit');
+form.addEventListener('submit',async e=>{
+ e.preventDefault();
+ const url=document.querySelector('#url').value.trim(),mode=document.querySelector('#mode').value,quality=document.querySelector('#quality').value;
+ let parsed;try{parsed=new URL(url)}catch{statusBox.textContent='الرابط غير صحيح.';return}
+ if(!['http:','https:'].includes(parsed.protocol)){statusBox.textContent='استخدم رابط HTTP أو HTTPS فقط.';return}
+ submit.disabled=true;submit.querySelectorAll('span')[1].textContent='جارٍ تجهيز التحميل...';statusBox.textContent='جارٍ فحص الرابط والتواصل مع الخادم...';
+ try{
+  const r=await fetch('/api/download',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url,mode,quality})});
+  if(!r.ok){const data=await r.json().catch(()=>({}));throw new Error(data.error||'تعذر بدء التحميل. تأكد أن الخادم يعمل.')}
+  const blob=await r.blob(),disposition=r.headers.get('Content-Disposition')||'',match=disposition.match(/filename="?([^";]+)"?/i),name=match?match[1]:(mode==='audio'?'audio.mp3':'video.mp4');
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1500);statusBox.textContent='تم تجهيز الملف بنجاح. لو التنزيل لم يبدأ تلقائيًا، راجع قائمة تنزيلات المتصفح.';
+ }catch(err){statusBox.textContent='لم يكتمل الطلب: '+err.message+'\nتأكد من الخادم .'}
+ finally{submit.disabled=false;submit.querySelectorAll('span')[1].textContent='فحص الرابط وبدء التحميل'}
+});
+if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('/sw.js').catch(()=>{});
+</script>
+</body></html>
